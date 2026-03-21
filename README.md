@@ -1,42 +1,54 @@
-# Cat-Reloaded Advanced A1 Assignments
+# Cat-Reloaded Advanced A1 — Assignments
 
-A repository that collects all my assignments for the **Advanced A1 phase** of the Cat Reloaded team.
+This repository is a hub for my **Cat Reloaded Advanced A1** work.
+It is organized using **Git submodules**, where each assignment/task lives in its own separate repository and is included here as a submodule.
 
-## Goal
-
-Track, organize, and share all assignments completed during the Advanced A1 training phase. Each assignment lives in its own isolated folder so it can be worked on, versioned, and shared independently.
-
-## Structure
+## Repository Structure
 
 ```
-Cat-Reloaded_AdvancedA2/
-├── README.md               ← you are here (repo overview)
-├── Assignment_01/
-│   ├── .git/               ← independent git repo for this assignment
-│   └── README.md           ← description of the assignment
-├── Assignment_02/
-│   ├── .git/
-│   └── README.md
-└── Assignment_03/
-    ├── .git/
-    └── README.md
+Cat-Reloaded_AdvancedA1/
+├── README.md
+├── .gitmodules
+├── assignment1/              # submodule
+├── assignment2/              # submodule
+└── Task_entry_advancedA1/    # submodule
 ```
 
-## How to Use
+## Included Work (Submodules)
 
-Each assignment folder is a fully independent git repository.  
-To work on an assignment, navigate into its folder:
+| Folder | In this repo | Source Repository |
+|--------|--------------|------------------|
+| `assignment1` | [./assignment1](./assignment1) | https://github.com/KenzyFrhat/Week1-2 |
+| `assignment2` | [./assignment2](./assignment2) | https://github.com/KenzyFrhat/Week3 |
+| `Task_entry_advancedA1` | [./Task_entry_advancedA1](./Task_entry_advancedA1) | https://github.com/KenzyFrhat/SuperMarketSales---Advanced-Starting |
+
+## How to Clone (with Submodules)
+
+Clone this repository **and initialize submodules**:
 
 ```bash
-cd Assignment_01
-git log       # view its own commit history
-git status    # check changes
+git clone --recurse-submodules https://github.com/KenzyFrhat/Cat-Reloaded_AdvancedA1.git
 ```
 
-## Assignments
+If you already cloned it without submodules:
 
-| Folder | Description |
-|--------|-------------|
-| [Assignment_01](./Assignment_01) | Assignment 01 |
-| [Assignment_02](./Assignment_02) | Assignment 02 |
-| [Assignment_03](./Assignment_03) | Assignment 03 |
+```bash
+git submodule update --init --recursive
+```
+
+## Working on an Assignment
+
+Enter the submodule folder you want to work on:
+
+```bash
+cd assignment1
+git status
+git log
+```
+
+> Note: Since each assignment is a separate repository, commits made inside a submodule belong to that submodule repo.
+
+## Notes
+
+- `.gitmodules` defines the mapping between each folder and its upstream repository.
+- This repo is mainly an organizer/entry point for the Advanced A1 tasks.
