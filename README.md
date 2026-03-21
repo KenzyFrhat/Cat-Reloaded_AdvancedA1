@@ -1,6 +1,6 @@
-# Cat-Reloaded Advanced A2 Assignments
+# Cat-Reloaded Advanced A1 Assignments
 
-A repository that collects all my assignments for the **Advanced A2 phase** of the Cat Reloaded team.
+A repository that collects all my assignments for the **Advanced A1 phase** of the Cat Reloaded team.
 
 ## Goal
 
