@@ -4,7 +4,7 @@ A repository that collects all my assignments for the **Advanced A1 phase** of t
 
 ## Goal
 
-Track, organize, and share all assignments completed during the Advanced A2 training phase. Each assignment lives in its own isolated folder so it can be worked on, versioned, and shared independently.
+Track, organize, and share all assignments completed during the Advanced A1 training phase. Each assignment lives in its own isolated folder so it can be worked on, versioned, and shared independently.
 
 ## Structure
 
