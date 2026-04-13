@@ -7,6 +7,6 @@
 [submodule "Task_entry_advancedA1"]
 	path = Task_entry_advancedA1
 	url = https://github.com/KenzyFrhat/SuperMarketSales---Advanced-Starting.git
-[submodule "optional_assignment_week3"]
-	path = optional_assignment_week3
+[submodule "Assignment3"]
+	path = Assignment3
 	url = https://github.com/KenzyFrhat/Student_Performance.git
